@@ -20,7 +20,7 @@ Request flow: **Controller → Service → Weather API client** (HTTP).
 - **Models** — `Models/Dtos` mirror provider JSON (snake_case via `System.Text.Json`); `Models/ViewModels` are API-facing shapes.
 - **Middleware** — `GlobalExceptionHandlingMiddleware` returns **Problem Details–style** JSON (`application/problem+json`).
 
-Configuration: `WeatherApi` section in `appsettings.json`. **Do not commit real API keys**; use environment variables or user secrets (see below).
+Configuration: `WeatherApi` section in `appsettings.json`. 
 
 ## Prerequisites
 
