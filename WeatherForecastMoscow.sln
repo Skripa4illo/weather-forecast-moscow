@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4765A62-86D6-478A-9A41-AABB07534562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastMoscow.Api", "src\WeatherForecastMoscow.Api\WeatherForecastMoscow.Api.csproj", "{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5790BEE9-5F73-4A71-89A5-0AF44F087461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastMoscow.Tests", "tests\WeatherForecastMoscow.Tests\WeatherForecastMoscow.Tests.csproj", "{17B991D7-A902-4D07-A446-9818BFF3B95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B991D7-A902-4D07-A446-9818BFF3B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B991D7-A902-4D07-A446-9818BFF3B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B991D7-A902-4D07-A446-9818BFF3B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B991D7-A902-4D07-A446-9818BFF3B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAF4A78D-925A-48C2-ACB6-A24E879AC8B3} = {D4765A62-86D6-478A-9A41-AABB07534562}
+		{17B991D7-A902-4D07-A446-9818BFF3B95F} = {5790BEE9-5F73-4A71-89A5-0AF44F087461}
+	EndGlobalSection
+EndGlobal
