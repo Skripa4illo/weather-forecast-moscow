@@ -170,8 +170,3 @@ Dockerfile
 WeatherForecastMoscow.sln
 ```
 
-## Risks / limitations
-
-- **Quota / rate limits** apply per WeatherAPI.com plan; caching reduces calls to at most one refresh per **10 minutes** per process (in-memory cache is **per instance**, not shared across pods).
-- **No retry policy** on the HTTP client in this sample; add Polly if you need resilient calls to the provider.
-- **Secrets**: keep keys in environment variables, vaults, or Kubernetes Secrets—not in source control.
